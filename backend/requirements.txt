@@ -1,0 +1,15 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+httpx==0.25.1
+pydantic==2.4.2
+pydantic-settings==2.0.3
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+redis==5.0.1  # للتخزين المؤقت
+openai==1.3.0  # إذا استخدمنا GPT (أو يمكن استبدالها بـ Llama etc)
+PyGithub==2.1.1
+joplin-api==0.1.0  # افتراضي، قد تحتاج إلى مكتبة مخصصة
+loguru==0.7.2
+celery==5.3.4  # للمهام الخلفية الطويلة (اختياري)
